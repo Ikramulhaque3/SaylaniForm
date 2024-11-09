@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayalani Registration Form</title>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aladin&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Permanent+Marker&family=Signika+Negative:wght@300..700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="bgimg"> <img id="bgimage" src="./photo-1541462608143-67571c6738dd.jpeg"
+                style="height: 17rem; width: 80%; opacity: 10%; margin-left: 7rem;" alt="">
+        </div>
+
+
+
+        <img id="titleimage" src="Saylani-logo.png" alt="Saylani Logo">
+        <div class="main">
+
+            <div class="logo">
+                <img src="./facebook.0d22b4d986cc357e30b7.png" alt="">
+                <img src="./youtube.25bcb63515915fad0160.png" alt="">
+                <img src="./instagram.1506b398fa46f19bb324.png" alt="">
+            </div>
+
+            <div class="heading">
+                <h3 id="main-heading">REGISTRATION FORM-SMIT</h3>
+
+            </div>
+
+
+            <div class="button">
+                <button id="portal">Student Portal</button>
+            </div>
+        </div>
+
+        <div class="ser">
+            <p>Services - Education - Registration </p>
+        </div>
+        <div class="rdidr">
+            <button id="regbtn" onclick="buttonColor()">Registration</button>
+            <button id="idbtn">Download ID Card</button>
+            <button id="resultbtn">Results</button>
+
+        </div>
+
+    </div>
+    <div class="labeldiv1">
+        <label for="country">Select Country</label>
+        <label for="city">Select city</label>
+    </div>
+
+    <div class="selectdiv">
+        <select name="select country" id="country">
+            <option value="">Select Country</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Turkey">Turkey</option>
+
+        </select>
+
+        <select name="select city" id="city">
+            <option value="">Select City</option>
+
+            <option value="Istanbul">Istanbul</option>
+        </select>
+
+    </div>
+
+    <div class="labeldiv2">
+        <label for="course">Select Course or event</label>
+        <label for="computer" id="comp1">Select Your Computer Proficiency</label>
+    </div>
+
+    <div class="selectdiv">
+        <select name="select course" id="course">
+            <option value="">Select Course or event</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Turkey">Turkey</option>
+           
+
+        </select>
+
+        <select name="select computer proficiency" id="computer">
+            <option value="">select computer proficiency</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Turkey">Turkey</option>
+
+            
+        </select>
+
+    </div>
+
+    <div class="labeldiv3">
+        <label for="name" >Full Name</label>
+        <label for="fname" >Father Name</label>
+    </div>
+
+    <div class="inputdiv">
+        <input type="text" id="name" placeholder="Full name">
+        <input type="text" id="fname" placeholder="Father name">
+
+    </div>
+
+    <div class="labeldiv4">
+        <label for="email" >Email</label>
+        <label for="phone" >Phone Number</label>
+    </div>
+
+    <div class="inputdiv">
+        <input type="email" id="email" placeholder="Email">
+        <input type="number" id="phone" placeholder="Phone Number">
+
+    </div>
+
+    <div class="labeldiv5">
+        <label for="cnic" >CNIC</label>
+        <label for="fcnic" >Father CNIC(optional)</label>
+    </div>
+
+    <div class="inputdiv">
+        <input type="number" id="cnic" placeholder="CNIC">
+        <input type="number" id="fcnic" placeholder="Father CNIC(optional)">
+
+    </div>
+
+    <div class="labeldiv6">
+        <label for="dob" >Date of birth</label>
+        <label for="gender" >Select gender</label>
+    </div>
+    
+    <div class="inputdiv">
+        <input type="date" id="dob" placeholder="dd//mm//yy">
+       <select name="gender" id="gender">
+        <option value="">Select gender</option>
+        <option value="Pakistan">Pakistan</option>
+            <option value="Turkey">Turkey</option>
+       </select>
+
+    </div>
+
+    <div class="labeldiv7">
+        <label for="Address"  >Address</label>
+    </div>
+
+    <div class="inputdiv7">
+        <input type="address" id="address" placeholder="Address">
+    </div>
+
+    <div class="labeldiv7">
+        <label for="qualification" >Last qualification</label>
+    </div>
+
+    <div class="inputdiv7">
+        <input type="text" id="qualification" placeholder="Last qualification">
+    </div>
+    
+    <div class="labeldiv7">
+        <label for="laptop" > Do you have a laptop</label>
+    </div>
+
+    <div class="inputdiv7">
+        <input type="address"  id="laptop" placeholder="Do you have a laptop">
+    </div>
+
+    <div class="inputdiv7">
+    <button type="submit" onclick="submitdata()">Submit</button>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
